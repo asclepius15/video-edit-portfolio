@@ -11,7 +11,7 @@ import Preloader from './components/Preloader';
 import PhotoSection from './components/PhotoSection';
 import { useTheme } from './hooks/useTheme';
 import BackgroundAudio from './components/BackgroundAudio';
-import FAQBot from './components/FAQBot';
+// import FAQBot from './components/FAQBot';
 // import ChatBot3D from './components/ChatBot3D';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
       <PhotoSection />
       <AIGallery />
       <Contact />
-      <FAQBot />
+      {/* <FAQBot /> */}
     </div>
   );
 }
