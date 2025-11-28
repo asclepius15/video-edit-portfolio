@@ -7,7 +7,6 @@ const Navigation: React.FC = () => {
   const navItems = [
     { id: 'home', label: 'Home', icon: Home },
     { id: 'about', label: 'About', icon: User },
-    { id: 'projects', label: 'Coding Projects', icon: Code },
     { id: 'videos', label: 'Video Projects', icon: Video },
     { id: 'photos', label: 'Photo Gallery', icon: Camera },
     { id: 'gallery', label: 'AI Gallery', icon: Palette },

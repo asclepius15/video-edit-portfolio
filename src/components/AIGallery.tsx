@@ -44,6 +44,12 @@ const AIGallery: React.FC = () => {
       description: 'A powerful humanoid figure meditating in a lotus pose, body made of cracked volcanic rock (AI video).',
       thumbnail: '/asset/Firefly_-A%20powerful%20humanoid%20figure%20meditating%20in%20a%20lotus%20pose,%20skin%20made%20of%20cracked%20volcanic%20903377%20(1).jpg',
       url: '/asset/Firefly%20A%20powerful%20humanoid%20figure%20meditating%20in%20a%20lotus%20pose,%20body%20made%20of%20cracked%20volcanic%20rock%20wi%20(1).mp4'
+    },
+    {
+      title: 'Futuristic DevOps & Video Editing',
+      description: 'A futuristic cyberpunk scene blending the domains of DevOps and video editing with a humanoid AI.',
+      thumbnail: '/asset/Firefly_Portrait%20layout%20%E2%80%94%20A%20cyberpunk-style%20futuristic%20control%20cockpit%20in%20vertical%20view,%20cent%20127239.jpg',
+      url: '/asset/futuristic-devops-video.mp4'
     }
   ];
 

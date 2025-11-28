@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Code, Video, Palette, Server } from 'lucide-react';
+import { Download, Video, Palette } from 'lucide-react';
 
 const About: React.FC = () => {
   const handleResumeDownload = () => {
@@ -12,10 +12,9 @@ const About: React.FC = () => {
   };
 
   const skills = [
-    { category: 'Video Editing', icon: Video, items: ['Adobe Premiere Pro', 'Final Cut Pro', 'After Effects', 'DaVinci Resolve'] },
+    { category: 'Video Editing', icon: Video, items: ['Adobe Premiere Pro', 'After Effects', 'DaVinci Resolve', 'CapCut'] },
     { category: 'Design', icon: Palette, items: ['Adobe Creative Suite', 'Figma', 'Photoshop', 'Illustrator'] },
-    { category: 'DevOps', icon: Server, items: ['Docker', 'CI/CD', 'GitHub Actions', 'AWS'] },
-    { category: 'Development', icon: Code, items: ['React', 'Node.js', 'Python', 'Django'] },
+    
   ];
 
   const experience = [
@@ -44,11 +43,9 @@ const About: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <div className="space-y-6">
             <div className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl border border-gray-800">
-              <h3 className="text-2xl font-bold mb-4 text-white">Creative Technologist</h3>
+              <h3 className="text-2xl font-bold mb-4 text-white">Creative</h3>
               <p className="text-gray-300 leading-relaxed">
-                I'm a passionate DevOps Engineer and Video Editor who bridges the gap between technical innovation and creative storytelling. 
-                With expertise in both cutting-edge development practices and visual content creation, I craft experiences that are both 
-                technically robust and visually stunning.
+              Hi, I’m Pintoo Safi — a video editor who turns raw footage into bold, story-driven visuals. I blend sharp cuts, modern pacing, and cinematic flair to craft edits that don’t just tell stories — they make people feel them.
               </p>
             </div>
 

@@ -13,44 +13,44 @@ const VideoShowcase: React.FC = () => {
       platform: 'instagram'
     },
     {
-      title: 'Creative Reel #2',
+      title: 'Code Red 4.0 - Aftermovie',
       description: 'Dynamic social media content with motion graphics',
-      thumbnail: 'https://images.pexels.com/photos/3945313/pexels-photo-3945313.jpeg?auto=compress&cs=tinysrgb&w=600',
+      thumbnail: '/asset/DSC00214.JPG',
       url: 'https://www.instagram.com/reel/DBrPRJqPRwL/?igsh=eWkycWpwOWs3b291',
       platform: 'instagram'
     },
     {
-      title: 'Cinematic Reel #3',
+      title: 'Full Rap Scene',
       description: 'Professional video editing with color grading and effects',
-      thumbnail: 'https://images.pexels.com/photos/3992739/pexels-photo-3992739.jpeg?auto=compress&cs=tinysrgb&w=600',
+      thumbnail: 'asset/IMG_3540.jpg',
       url: 'https://www.instagram.com/reel/DBioLYog6cP/?igsh=OHFzZGJ6OXZlcTU4',
       platform: 'instagram'
     },
     {
-      title: 'Event Highlight Reel',
+      title: 'Code Red 3.0 - Recap',
       description: 'Event coverage with seamless transitions and audio mixing',
-      thumbnail: 'https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?auto=compress&cs=tinysrgb&w=600',
+      thumbnail: '/asset/Screenshot 2025-09-23 231653.png',
       url: 'https://www.instagram.com/reel/DATLRL9gg4V/?igsh=MXBqM2l3Z3A2N2d6Yw==',
       platform: 'instagram'
     },
     {
-      title: 'Professional LinkedIn Post',
+      title: 'Code Red 3.0 - Aftermovie',
       description: 'Corporate video content with professional editing',
-      thumbnail: 'https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=600',
+      thumbnail:'/asset/Screenshot 2025-09-23 231653.png' ,
       url: 'https://www.linkedin.com/posts/pintoo-safi-3b8b56277_acic-videoediting-gratitude-ugcPost-7131686770932383744-1HnP',
       platform: 'linkedin'
     },
     {
-      title: 'Creative Reel #6',
+      title: 'Yougami Youth Fest',
       description: 'Artistic video editing with creative transitions',
-      thumbnail: 'https://images.pexels.com/photos/3825540/pexels-photo-3825540.jpeg?auto=compress&cs=tinysrgb&w=600',
+      thumbnail: '/asset/thumb65153aa250e2f.webp',
       url: 'https://www.instagram.com/reel/C1PuXFmo4Ig/?igsh=dGYwdTk2MDU5a25r',
       platform: 'instagram'
     },
     {
-      title: 'Dynamic Reel #7',
+      title: 'Yougami Youth Fest - Paradox Live Performance',
       description: 'Fast-paced editing with rhythm and visual effects',
-      thumbnail: 'https://images.pexels.com/photos/3769146/pexels-photo-3769146.jpeg?auto=compress&cs=tinysrgb&w=600',
+      thumbnail: '/asset/Paradox.jpg',
       url: 'https://www.instagram.com/reel/C1pjECxh_eX/?igsh=emFpbnBiN3A2emQ5',
       platform: 'instagram'
     }

@@ -16,10 +16,10 @@ const Hero: React.FC = () => {
       {/* Subtitle and tagline in upward blank area above robot head */}
       <div className="absolute z-30 left-1/2 -translate-x-1/2 top-[3%] flex flex-col items-center w-full">
         <div className="text-xl lg:text-2xl bg-gradient-to-r from-gray-500 to-gray-700 bg-clip-text text-transparent font-light tracking-wider drop-shadow-lg mb-1">
-          DevOps Engineer | Video Editor
+        Video Editor
         </div>
         <div className="text-lg lg:text-xl bg-gradient-to-r from-gray-600 to-gray-800 bg-clip-text text-transparent max-w-2xl mx-auto px-6 drop-shadow-lg">
-          "Where tech meets creativity"
+          "Where imagination meets the timeline"
         </div>
       </div>
       {/* Status buttons stacked at bottom right, slightly lower */}
