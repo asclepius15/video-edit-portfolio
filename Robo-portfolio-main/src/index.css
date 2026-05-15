@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide Spline watermark/logo (aggressive) */
+iframe + div[style*="spline"],
+iframe ~ div[style*="spline"],
+iframe ~ .spline-watermark,
+iframe ~ [alt="Spline"],
+iframe ~ .spline-logo,
+iframe ~ .spline-watermark__container,
+iframe ~ .spline-watermark__button,
+.spline-watermark, [alt="Spline"], .spline-logo, .spline-watermark__container, .spline-watermark__button {
+  display: none !important;
+}
