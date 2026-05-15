@@ -6,7 +6,6 @@ import About from './components/About';
 import VideoShowcase from './components/VideoShowcase';
 import AIGallery from './components/AIGallery';
 import Contact from './components/Contact';
-import Preloader from './components/Preloader';
 import { useTheme } from './hooks/useTheme';
 // import FAQBot from './components/FAQBot';
  
@@ -16,7 +15,6 @@ function App() {
 
   return (
     <div className={`min-h-screen transition-colors duration-300 bg-white text-black dark:bg-black dark:text-white ${theme === 'dark' ? 'dark' : ''}`}>
-      <Preloader />
       <Header />
       <Navigation />
       <Hero />

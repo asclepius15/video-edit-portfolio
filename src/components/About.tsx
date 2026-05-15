@@ -13,7 +13,6 @@ const About: React.FC = () => {
 
   const skills = [
     { category: 'Video Editing', icon: Video, items: ['Adobe Premiere Pro', 'After Effects', 'DaVinci Resolve', 'CapCut'] },
-    { category: 'Design', icon: Palette, items: ['Adobe Creative Suite', 'Figma', 'Photoshop', 'Illustrator'] },
     
   ];
 
